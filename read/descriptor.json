@@ -1,0 +1,22 @@
+{
+    "name": "amarnath262-csv",
+    "type": "flogo:activity",
+    "version": "0.0.1",
+    "title": "parsecsv",
+    "description": "csv read",
+    "homepage": "https://github.com/amarnath262/test/read",
+    "input": [
+      {
+        "name": "In",
+        "type": "string",
+        "required": true
+      }
+    ],
+    "output": [
+      {
+        "name": "Output",
+        "type": "any"
+      }
+    ]
+  }
+    
