@@ -14,7 +14,7 @@ type Input struct {
 func (r *Input) FromMap(values map[string] [] interface{}) error {
 
 	Val1, _ := coerce.ToArray(values["In"])
-	r.In = Val1
+	r.In = Val1[][]
 	fmt.Println("num1 value is: ", values["In"])
 
 	return nil
@@ -32,7 +32,7 @@ type Output struct {
 
 func (o *Output) FromMap(values map[string] [] interface{}) error {
 	strVal, _ := coerce.ToArray(values["Output"])
-	o.Output = strVal
+	o.Output = strVal[][]
 	//fmt.Println("output value is: ", values["Output"])
 	return nil
 }
