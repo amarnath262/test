@@ -1,0 +1,37 @@
+{
+    "name": "CSV Parser",
+    "version": "0.1.0",
+    "ref": "github.com/amarnath262/flogo-add/parsecsv",
+    "type": "flogo:activity",
+    "title": "ParseCSV",
+    "description": "Parse CSV into a Flogo Array",
+    "author": "Amarnath Patro <amarnath.p@isteer.com>",
+    "inputs":[
+      {
+        "name": "fieldNames",
+        "type": "array",
+        "required": true
+      },
+      {
+        "name": "delimiter",
+        "type": "string",
+        "required": true
+      },
+      {
+        "name": "csv",
+        "type": "string",
+        "required": false
+      },
+      {
+        "name": "file",
+        "type": "string",
+        "required": false
+      }
+    ],
+    "outputs": [
+      {
+        "name": "output",
+        "type": "array"
+      }
+    ]
+  }

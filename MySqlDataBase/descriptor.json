@@ -1,0 +1,31 @@
+{
+    "name": "amarnath262-MySqlDataBaseConnection",
+    "type": "flogo:activity",
+    "version": "0.0.1",
+    "title": "MySqlDataBaseConnection",
+    "description": "MySqlDataBase connection",
+    "homepage": "https://github.com/amarnath262/flogo-add/MySqlDataBase",
+    "input": [
+      {
+        "name": "UserName",
+        "type": "string",
+        "required": true
+      },
+      {
+        "name": "PassWord",
+        "type": "string",
+        "required": true
+      },
+      {
+        "name": "DataBase",
+        "type": "string",
+        "required": true
+      }
+    ],
+    "output": [
+      {
+        "name": "Output",
+        "type": "string"
+      }
+    ]
+  }

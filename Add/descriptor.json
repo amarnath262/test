@@ -1,0 +1,24 @@
+{
+    "name": "tester",
+    "type": "flogo:activity",
+    "version": "0.0.1",
+    "title": "tester" ,
+  "descriptor" :"addition of two numbers",
+  "homepage":"https://github.com/amarnath262/tester/Add",
+  "input":[
+      {
+        "name": "num1",
+        "type": "int"
+      },
+      {
+        "name": "num2",
+        "type": "int"
+      }
+],
+"output":[
+    {
+    "name": "Output",
+    "type": "int"
+    }
+]
+ }

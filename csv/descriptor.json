@@ -1,0 +1,21 @@
+{
+    "name": "csv",
+    "type": "flogo:activity",
+    "version": "0.0.1",
+    "title": "csv",
+    "description": "csv read",
+    "homepage": "https://github.com/amarnath262/flogo-add/csv",
+    "input": [
+      {
+        "name": "In",
+        "type": "string",
+        "required": true
+      }
+    ],
+    "output": [
+      {
+        "name": "Output",
+        "type": "any"
+      }
+    ]
+  }
