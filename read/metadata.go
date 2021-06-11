@@ -11,7 +11,7 @@ type Input struct {
 	In string `md:"In.required"`
 }
 
-func (r *Input) FromMap(values map[string]interface{}) error {
+func (r *Input) FromMap(values map[string] [] interface{}) error {
 
 	Val1, _ := coerce.ToArray(values["In"])
 	r.In = Val1
@@ -30,7 +30,7 @@ type Output struct {
 	Output string `md:"Output"`
 }
 
-func (o *Output) FromMap(values map[string]interface{}) error {
+func (o *Output) FromMap(values map[string] [] interface{}) error {
 	strVal, _ := coerce.ToArray(values["Output"])
 	o.Output = strVal
 	//fmt.Println("output value is: ", values["Output"])
